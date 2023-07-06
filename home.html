@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <link rel="stylesheet" href="style.css"/>
+       <title>pagetitle</title>
+       <meta charset="UTF-8">
+       <meta name="description" content="free web tutorial">
+       <meta name="keywords" content="HTML,CSS">
+       <mata http-equiv="refresh" content="30">
+        <!--for responsiveness-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+    <!--HTML layout-->
+    <header></header>
+    <nav><a href=""></a></nav>
+    <article></article>
+    <section></section>
+    <aside></aside>
+    <footer></footer>
+    <details></details>
+    <summary></summary>
+    <div class="list">
+        
+    <!-- Unordered List-->
+    <ul style="list-style-type:circle;">
+        <li>coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+    <!--ordered list-->
+    <ol type="i">
+        <li>milk</li>
+        <li>ball</li>
+        <li>fun</li>
+        <li>yourself</li>
+    </ol>
+</div>
+<!--HTML Entities-->
+&pound;
+&cent;
+&yen;
+&lt;
+&amp;
+&#60;
+&#165;
+<br/>
+    <!--Block level Element are h1-h6, div, p, form-->
+
+       <!--Inline level Element are span, a, img-->
+        <img id="image"/>
+        <p id="demo">Make a word</p>
+       <h1>my header <span> my class is good</span></h1>
+
+       <!--File Path-->
+       <img style="background-color: pink;text-align: center;" src="" alt="" width="120" height="130"/>
+
+       <!--HTML Form-->
+       <form action="" method="">
+        <fieldset>
+            <legend>Personal Information</legend>
+            First Name:<br>
+            <input type="text" name="First Name" value="" size="40" required autofocus/>
+            <br/>
+            <br/>
+            Last Name:<br/>
+            <input type="text" name="Last Name" value="" readonly>
+            <br/>
+            <br/>
+            Gender:<br/>
+            <input type="radio" name="gender" value="Male" checked> Male<br/>
+            <input type="radio" name="gender" value="Female"> Female<br/>
+            <br/>
+            <br/>
+            <select name="cars">
+                <option value="Volvo">Volvo</option>
+                <option value="Bugatti">Bugatti</option>
+                <option value="Ferarri">Ferarri</option>
+                <option value="RollsRoyse">RollsRoyse</option>
+            </select>
+            <br/>
+            <br/>
+            <textarea name="messages" rows="10" cols="30" The car was playing in the 
+            garden></textarea>
+            <br/>
+            <br/>
+            <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br/>
+            <input type="checkbox" name="vehicle2" value="Car"> I have a car<br/>
+            <input type="image" src="" width="" height="">
+            <br/>
+            <br/>
+            <input type="submit">
+    
+        </fieldset>
+       </form>
+
+       <!--HTML Javascript-->
+       <script>
+        document.getElementById("demo").innerHTML= "Hello Javascript";
+        document.getElementById("demo").style.fontSize= "50px";
+        document.getElementById("demo").style.fontSize= "red";
+        document.getElementById("image").src="images/IMG-20230211-WA0001.jpg";
+        document.getElementById("image").style.width="150px";
+       </script>
+       <noscript>
+        Sorry, your browser does not support Javascript
+       </noscript>
+    </body>
+    </html>

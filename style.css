@@ -1,0 +1,21 @@
+body{
+    background-color: white;
+}
+table,th,td{
+    border: 1px solid black
+}
+th,td{
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.list{
+    background-color: orange;
+}
+title{
+    color: blueviolet;
+}
+h1{
+    color: yellow;
+    
+}
